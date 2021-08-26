@@ -1,0 +1,38 @@
+nav {
+  .container {
+    ul.navmenu {
+      text-transform: uppercase;
+      align-items: center;
+      li {
+        &:not(:last-child) {
+          margin-right: 20px;
+        }
+        a {
+          font-size: 17px;
+          color: #333;
+          &.active
+          ,&:hover {
+            color: $red !important;
+          }
+          &[type="button"] {
+            color: $red;
+            border: 2px solid $red;
+            border-radius: 4px;
+            padding: 6px 25px;
+            background: $red;
+            -webkit-transition: 0.3s;
+            transition: 0.3s;
+            color: white;
+            font-size: 16px;
+            text-transform: uppercase;
+            box-shadow: 0 0 7px 0px #3333338a;
+            &:hover {
+              background: transparent;
+              color: $red;
+            }
+          }
+        }
+      }
+    }
+  }
+}

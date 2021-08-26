@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+nav .container ul.navmenu {
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .container ul.navmenu li:not(:last-child) {
+  margin-right: 20px;
+}
+
+nav .container ul.navmenu li a {
+  font-size: 17px;
+  color: #333;
+}
+
+nav .container ul.navmenu li a.active, nav .container ul.navmenu li a:hover {
+  color: #fa5757 !important;
+}
+
+nav .container ul.navmenu li a[type="button"] {
+  color: #fa5757;
+  border: 2px solid #fa5757;
+  border-radius: 4px;
+  padding: 6px 25px;
+  background: #fa5757;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 0 7px 0px #3333338a;
+          box-shadow: 0 0 7px 0px #3333338a;
+}
+
+nav .container ul.navmenu li a[type="button"]:hover {
+  background: transparent;
+  color: #fa5757;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Rubik", sans-serif !important;
+  font-size: 18px;
+}
+/*# sourceMappingURL=main.css.map */
