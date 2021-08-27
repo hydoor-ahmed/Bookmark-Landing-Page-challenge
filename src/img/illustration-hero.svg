@@ -1,1 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="657" height="466"><defs><filter id="a" width="118%" height="126.9%" x="-9%" y="-5.7%" filterUnits="objectBoundingBox"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/><feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter><rect id="c" width="578" height="385" rx="26"/><filter id="b" width="126%" height="139%" x="-13%" y="-11.7%" filterUnits="objectBoundingBox"><feOffset dy="30" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="20"/><feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0.18243335 0 0 0 0 0.230632694 0 0 0 0 0.506057518 0 0 0 0.200120192 0"/></filter><linearGradient id="d" x1="99.013%" x2="2.544%" y1="71.675%" y2="29.014%"><stop offset="0%" stop-color="#151515"/><stop offset="100%" stop-color="#3D3D3D"/></linearGradient><rect id="e" width="536" height="346" y="3" rx="8"/></defs><g fill="none" fill-rule="evenodd" filter="url(#a)" transform="translate(39 9)"><g transform="translate(.5 .5)"><g fill-rule="nonzero"><use fill="#000" filter="url(#b)" xlink:href="#c"/><use fill="#777" xlink:href="#c"/></g><rect width="574.23" height="381.865" x="2" y="2" fill="url(#d)" fill-rule="nonzero" rx="25"/><g transform="translate(21.03 16.303)"><rect width="471.463" height="353.756" x="33" fill="#2A2A2A" fill-rule="nonzero" opacity=".1" rx="5"/><mask id="f" fill="#fff"><use xlink:href="#e"/></mask><use fill="#E8EAF6" fill-rule="nonzero" xlink:href="#e"/><g mask="url(#f)"><path fill="#5267DF" d="M-3.53 3.197h547v59h-547z"/><g transform="translate(22.47 17.197)" fill="#FFF"><circle cx="16" cy="16" r="16" opacity=".245"/><circle cx="477" cy="16" r="16" opacity=".104"/><g transform="translate(47 6)"><rect width="120" height="6" opacity=".75" rx="3"/><rect width="64" height="6" y="14" opacity=".25" rx="3"/></g></g></g><g mask="url(#f)"><g transform="translate(57 96)"><rect width="261" height="316" fill="#FFF" rx="8"/><rect width="128" height="316" x="295" fill="#FFF" rx="8"/><rect width="120" height="6" x="78.47" y="38.197" fill="#242A45" opacity=".5" rx="3"/></g></g></g></g><g transform="translate(110 135)"><circle cx="16" cy="26" r="16" fill="#F98E5D"/><rect width="88" height="6" x="284" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="20" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="40" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="60" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="94" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="114" fill="#242A45" opacity=".25" rx="3"/><rect width="88" height="6" x="284" y="134" fill="#242A45" opacity=".25" rx="3"/><rect width="64" height="6" x="47" y="30" fill="#242A45" opacity=".25" rx="3"/></g><g transform="translate(110 201)"><circle cx="16" cy="16" r="16" fill="#6AC6D6"/><rect width="120" height="6" x="47" y="6" fill="#242A45" opacity=".5" rx="3"/><rect width="64" height="6" x="47" y="20" fill="#242A45" opacity=".25" rx="3"/></g><g transform="translate(110 257)"><circle cx="16" cy="16" r="16" fill="#A47ED4"/><rect width="120" height="6" x="47" y="6" fill="#242A45" opacity=".5" rx="3"/><rect width="64" height="6" x="47" y="20" fill="#242A45" opacity=".25" rx="3"/></g><g transform="translate(110 313)"><circle cx="16" cy="16" r="16" fill="#EC7878"/><rect width="120" height="6" x="47" y="6" fill="#242A45" opacity=".5" rx="3"/><rect width="64" height="6" x="47" y="20" fill="#242A45" opacity=".25" rx="3"/></g></g></svg>
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 579 386" width="579" height="386">
+	<title>illustration-hero-svg</title>
+	<defs>
+		<linearGradient id="grd1" gradientUnits="userSpaceOnUse"  x1="326488.058" y1="104519.614" x2="8391.088" y2="42310.97">
+			<stop offset="0" stop-color="#151515"  />
+			<stop offset="100" stop-color="#3d3d3d"  />
+		</linearGradient>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M21.53 27.8C21.53 23.38 25.11 19.8 29.53 19.8L549.53 19.8C553.95 19.8 557.53 23.38 557.53 27.8L557.53 357.8C557.53 362.22 553.95 365.8 549.53 365.8L29.53 365.8C25.11 365.8 21.53 362.22 21.53 357.8L21.53 27.8Z" />
+		</clipPath>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp2">
+			<path d="M21.53 27.8C21.53 23.38 25.11 19.8 29.53 19.8L549.53 19.8C553.95 19.8 557.53 23.38 557.53 27.8L557.53 357.8C557.53 362.22 553.95 365.8 549.53 365.8L29.53 365.8C25.11 365.8 21.53 362.22 21.53 357.8L21.53 27.8Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #000000 } 
+		.shp1 { fill: #777777 } 
+		.shp2 { fill: url(#grd1) } 
+		.shp3 { opacity: 0.102;fill: #2a2a2a } 
+		.shp4 { fill: #e8eaf6 } 
+		.shp5 { fill: #5267df } 
+		.shp6 { opacity: 0.243;fill: #ffffff } 
+		.shp7 { opacity: 0.106;fill: #ffffff } 
+		.shp8 { opacity: 0.749;fill: #ffffff } 
+		.shp9 { opacity: 0.251;fill: #ffffff } 
+		.shp10 { fill: #ffffff } 
+		.shp11 { opacity: 0.502;fill: #242a45 } 
+		.shp12 { fill: #f98e5d } 
+		.shp13 { opacity: 0.251;fill: #242a45 } 
+		.shp14 { fill: #6ac6d6 } 
+		.shp15 { fill: #a47ed4 } 
+		.shp16 { fill: #ec7878 } 
+	</style>
+	<g id="Layer">
+		<g id="Layer">
+			<g id="Layer">
+				<path id="c" class="shp0" d="M0.5 26.5C0.5 12.14 12.14 0.5 26.5 0.5L552.5 0.5C566.86 0.5 578.5 12.14 578.5 26.5L578.5 359.5C578.5 373.86 566.86 385.5 552.5 385.5L26.5 385.5C12.14 385.5 0.5 373.86 0.5 359.5L0.5 26.5Z" />
+				<path id="c" class="shp1" d="M0.5 26.5C0.5 12.14 12.14 0.5 26.5 0.5L552.5 0.5C566.86 0.5 578.5 12.14 578.5 26.5L578.5 359.5C578.5 373.86 566.86 385.5 552.5 385.5L26.5 385.5C12.14 385.5 0.5 373.86 0.5 359.5L0.5 26.5Z" />
+			</g>
+			<path id="Layer" class="shp2" d="M2.5 27.5C2.5 13.69 13.69 2.5 27.5 2.5L551.73 2.5C565.54 2.5 576.73 13.69 576.73 27.5L576.73 359.37C576.73 373.17 565.54 384.37 551.73 384.37L27.5 384.37C13.69 384.37 2.5 373.17 2.5 359.37L2.5 27.5Z" />
+			<g id="Layer">
+				<path id="Layer" class="shp3" d="M54.53 21.8C54.53 19.04 56.77 16.8 59.53 16.8L520.99 16.8C523.75 16.8 525.99 19.04 525.99 21.8L525.99 365.56C525.99 368.32 523.75 370.56 520.99 370.56L59.53 370.56C56.77 370.56 54.53 368.32 54.53 365.56L54.53 21.8Z" />
+				<path id="e" class="shp4" d="M21.53 27.8C21.53 23.38 25.11 19.8 29.53 19.8L549.53 19.8C553.95 19.8 557.53 23.38 557.53 27.8L557.53 357.8C557.53 362.22 553.95 365.8 549.53 365.8L29.53 365.8C25.11 365.8 21.53 362.22 21.53 357.8L21.53 27.8Z" />
+				<g id="Clip-Path" clip-path="url(#cp1)">
+					<g id="Layer">
+						<path id="Layer" fill-rule="evenodd" class="shp5" d="M18 20L565 20L565 79L18 79L18 20Z" />
+						<g id="Layer">
+							<path id="Layer" class="shp6" d="M60 66C51.15 66 44 58.85 44 50C44 41.15 51.15 34 60 34C68.85 34 76 41.15 76 50C76 58.85 68.85 66 60 66Z" />
+							<path id="Layer" class="shp7" d="M521 66C512.15 66 505 58.85 505 50C505 41.15 512.15 34 521 34C529.85 34 537 41.15 537 50C537 58.85 529.85 66 521 66Z" />
+							<g id="Layer">
+								<path id="Layer" class="shp8" d="M91 43C91 41.34 92.34 40 94 40L208 40C209.66 40 211 41.34 211 43L211 43C211 44.66 209.66 46 208 46L94 46C92.34 46 91 44.66 91 43L91 43Z" />
+								<path id="Layer" class="shp9" d="M91 57C91 55.34 92.34 54 94 54L152 54C153.66 54 155 55.34 155 57L155 57C155 58.66 153.66 60 152 60L94 60C92.34 60 91 58.66 91 57L91 57Z" />
+							</g>
+						</g>
+					</g>
+				</g>
+				<g id="Clip-Path" clip-path="url(#cp2)">
+					<g id="Layer">
+						<g id="Layer">
+							<path id="Layer" class="shp10" d="M78.53 120.8C78.53 116.38 82.11 112.8 86.53 112.8L331.53 112.8C335.95 112.8 339.53 116.38 339.53 120.8L339.53 420.8C339.53 425.22 335.95 428.8 331.53 428.8L86.53 428.8C82.11 428.8 78.53 425.22 78.53 420.8L78.53 120.8Z" />
+							<path id="Layer" class="shp10" d="M373.53 120.8C373.53 116.38 377.11 112.8 381.53 112.8L493.53 112.8C497.95 112.8 501.53 116.38 501.53 120.8L501.53 420.8C501.53 425.22 497.95 428.8 493.53 428.8L381.53 428.8C377.11 428.8 373.53 425.22 373.53 420.8L373.53 120.8Z" />
+							<path id="Layer" class="shp11" d="M157 154C157 152.34 158.34 151 160 151L274 151C275.66 151 277 152.34 277 154L277 154C277 155.66 275.66 157 274 157L160 157C158.34 157 157 155.66 157 154L157 154Z" />
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g id="Layer">
+			<path id="Layer" class="shp12" d="M126 177C117.15 177 110 169.85 110 161C110 152.15 117.15 145 126 145C134.85 145 142 152.15 142 161C142 169.85 134.85 177 126 177Z" />
+			<path id="Layer" class="shp13" d="M394 138C394 136.34 395.34 135 397 135L479 135C480.66 135 482 136.34 482 138L482 138C482 139.66 480.66 141 479 141L397 141C395.34 141 394 139.66 394 138L394 138Z" />
+			<path id="Layer" class="shp13" d="M394 158C394 156.34 395.34 155 397 155L479 155C480.66 155 482 156.34 482 158L482 158C482 159.66 480.66 161 479 161L397 161C395.34 161 394 159.66 394 158L394 158Z" />
+			<path id="Layer" class="shp13" d="M394 178C394 176.34 395.34 175 397 175L479 175C480.66 175 482 176.34 482 178L482 178C482 179.66 480.66 181 479 181L397 181C395.34 181 394 179.66 394 178L394 178Z" />
+			<path id="Layer" class="shp13" d="M394 198C394 196.34 395.34 195 397 195L479 195C480.66 195 482 196.34 482 198L482 198C482 199.66 480.66 201 479 201L397 201C395.34 201 394 199.66 394 198L394 198Z" />
+			<path id="Layer" class="shp13" d="M394 232C394 230.34 395.34 229 397 229L479 229C480.66 229 482 230.34 482 232L482 232C482 233.66 480.66 235 479 235L397 235C395.34 235 394 233.66 394 232L394 232Z" />
+			<path id="Layer" class="shp13" d="M394 252C394 250.34 395.34 249 397 249L479 249C480.66 249 482 250.34 482 252L482 252C482 253.66 480.66 255 479 255L397 255C395.34 255 394 253.66 394 252L394 252Z" />
+			<path id="Layer" class="shp13" d="M394 272C394 270.34 395.34 269 397 269L479 269C480.66 269 482 270.34 482 272L482 272C482 273.66 480.66 275 479 275L397 275C395.34 275 394 273.66 394 272L394 272Z" />
+			<path id="Layer" class="shp13" d="M157 168C157 166.34 158.34 165 160 165L218 165C219.66 165 221 166.34 221 168L221 168C221 169.66 219.66 171 218 171L160 171C158.34 171 157 169.66 157 168L157 168Z" />
+		</g>
+		<g id="Layer">
+			<path id="Layer" class="shp14" d="M126 233C117.15 233 110 225.85 110 217C110 208.15 117.15 201 126 201C134.85 201 142 208.15 142 217C142 225.85 134.85 233 126 233Z" />
+			<path id="Layer" class="shp11" d="M157 210C157 208.34 158.34 207 160 207L274 207C275.66 207 277 208.34 277 210L277 210C277 211.66 275.66 213 274 213L160 213C158.34 213 157 211.66 157 210L157 210Z" />
+			<path id="Layer" class="shp13" d="M157 224C157 222.34 158.34 221 160 221L218 221C219.66 221 221 222.34 221 224L221 224C221 225.66 219.66 227 218 227L160 227C158.34 227 157 225.66 157 224L157 224Z" />
+		</g>
+		<g id="Layer">
+			<path id="Layer" class="shp15" d="M126 289C117.15 289 110 281.85 110 273C110 264.15 117.15 257 126 257C134.85 257 142 264.15 142 273C142 281.85 134.85 289 126 289Z" />
+			<path id="Layer" class="shp11" d="M157 266C157 264.34 158.34 263 160 263L274 263C275.66 263 277 264.34 277 266L277 266C277 267.66 275.66 269 274 269L160 269C158.34 269 157 267.66 157 266L157 266Z" />
+			<path id="Layer" class="shp13" d="M157 280C157 278.34 158.34 277 160 277L218 277C219.66 277 221 278.34 221 280L221 280C221 281.66 219.66 283 218 283L160 283C158.34 283 157 281.66 157 280L157 280Z" />
+		</g>
+		<g id="Layer">
+			<path id="Layer" class="shp16" d="M126 345C117.15 345 110 337.85 110 329C110 320.15 117.15 313 126 313C134.85 313 142 320.15 142 329C142 337.85 134.85 345 126 345Z" />
+			<path id="Layer" class="shp11" d="M157 322C157 320.34 158.34 319 160 319L274 319C275.66 319 277 320.34 277 322L277 322C277 323.66 275.66 325 274 325L160 325C158.34 325 157 323.66 157 322L157 322Z" />
+			<path id="Layer" class="shp13" d="M157 336C157 334.34 158.34 333 160 333L218 333C219.66 333 221 334.34 221 336L221 336C221 337.66 219.66 339 218 339L160 339C158.34 339 157 337.66 157 336L157 336Z" />
+		</g>
+	</g>
+</svg>

@@ -66,12 +66,14 @@ nav .container ul.navmenu li a[type="button"]:hover {
   border-top-left-radius: 200px;
   border-bottom-left-radius: 200px;
   right: 0;
-  bottom: 10px;
+  bottom: 160px;
+  z-index: -1;
 }
 
 .landing .container .content .imgContent img {
-  margin-left: 30px;
+  position: relative;
   width: 100%;
+  margin-bottom: 10px;
 }
 
 * {

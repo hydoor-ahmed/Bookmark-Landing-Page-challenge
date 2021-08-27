@@ -20,12 +20,16 @@
           border-top-left-radius: $r;
           border-bottom-left-radius: $r;
           right: 0;
-          bottom: 10px;
+          bottom: 160px;
+          z-index: -1;
         }
         img {
-          // position: relative;
-          margin-left: 30px;
+          position: relative;
           width: 100%;
+          margin-bottom: 10px;
+          // @media (max-width: ) {
+
+          // }
         }
       }
     }
