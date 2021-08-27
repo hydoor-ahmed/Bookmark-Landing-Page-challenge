@@ -27,36 +27,31 @@
   </head>
   <body>
     <!-- Start Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="pt-3">
       <div class="container">
-        <div class="navbar-brand">
+        <div>
           <a href="#"><img src="./src/img/logo-bookmark.svg" alt="Logo" /></a>
         </div>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#nbm"
-          aria-controls="nbm"
-          aria-expanded="false"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="nbm">
-          <ul class="navmenu navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Features</a>
+
+        <ion-icon name="menu-sharp" class="menu-icon"></ion-icon>
+        <div class="links">
+          <ul class="navmenu">
+            <li>
+              <a href="#" class="active">Features</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
+            <li>
+              <a href="#">Pricing</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+            <li>
+              <a href="#">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link loginbtn" type="button" href="#">Login</a>
+            <li>
+              <a class="loginbtn" type="button" href="#">Login</a>
             </li>
           </ul>
+          <div class="close-icon">
+            <ion-icon name="close-sharp" class="closeico"></ion-icon>
+          </div>
         </div>
       </div>
     </nav>
@@ -71,8 +66,9 @@
               <div class="text">
                 <h1>A Simple Bookmark<br />Manager</h1>
                 <p>
-                  A clean and simple interface to organize your favourite websites. Open a new 
-                  browser tab and see your sites load instantly. Try it for free.
+                  A clean and simple interface to organize your favourite
+                  websites. Open a new browser tab and see your sites load
+                  instantly. Try it for free.
                 </p>
                 <div class="btns">
                   <a href="#">Get it on Chrome</a>
@@ -82,9 +78,9 @@
             </div>
             <div class="col-lg-6 col-md-7 col-sm-12 ms-auto">
               <div class="imgContent">
-              <span></span>
-              <img src="./src/img/illustration-hero.svg" alt="Hero Img">
-            </div>
+                <span></span>
+                <img src="./src/img/illustration-hero.svg" alt="Hero Img" />
+              </div>
             </div>
           </div>
         </div>

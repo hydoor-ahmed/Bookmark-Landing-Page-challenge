@@ -8,8 +8,8 @@
 
   .container {
     .content {
-      .text {
-      }
+      // .text {
+      // }
       .imgContent {
         span {
           $r: 200px;
@@ -20,16 +20,41 @@
           border-top-left-radius: $r;
           border-bottom-left-radius: $r;
           right: 0;
-          bottom: 160px;
+          bottom: 150px;
           z-index: -1;
+          @media (max-width: 1400px) {
+            height: 360px;
+            bottom: 130px;
+          }
+          @media (max-width: 1200px) {
+            height: 320px;
+            bottom: 150px;
+          }
+          @media (max-width: 1048px) {
+            height: 320px;
+            bottom: 130px;
+            width: 350px;
+          }
+          @media (max-width: 992px) {
+            height: 320px;
+            bottom: 190px;
+            width: 350px;
+          }
+          @media (max-width: 768px) {
+            bottom: 40px;
+          }
         }
         img {
           position: relative;
           width: 100%;
-          margin-bottom: 10px;
-          // @media (max-width: ) {
-
-          // }
+          transform: translate(50px, -45px);
+          margin-right: 10px;
+          @media (max-width: 1407px) {
+            transform: none;
+          }
+          @media (max-width: 768px) {
+            margin-top: 50px;
+          }
         }
       }
     }

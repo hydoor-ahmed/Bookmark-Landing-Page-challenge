@@ -1,35 +1,83 @@
 nav {
   background: white;
   .container {
-    ul.navmenu {
-      text-transform: uppercase;
-      align-items: center;
-      li {
-        &:not(:last-child) {
-          margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .menu-icon {
+      font-size: 30px;
+      display: none;
+      padding: 4px;
+      @media (max-width: 992px) {
+        display: block;
+      }
+    }
+    .links {
+      @media (max-width: 992px) {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 101vh;
+        color: white;
+        background: #252b46e1;
+        left: 0;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .close-icon {
+        position: relative;
+        .closeico {
+          position: absolute;
+          left: 0;
+          top: 0;
         }
-        a {
-          font-size: 17px;
-          color: #333;
-          &.active
-          ,&:hover {
-            color: $red !important;
+      }
+      ul {
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        @media (max-width: 992px) {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          margin: 0 auto;
+          width: 100%;
+          height: 500px;
+        }
+        li {
+          &:not(:last-child) {
+            margin-right: 30px;
           }
-          &[type="button"] {
-            color: $red;
-            border: 2px solid $red;
-            border-radius: 4px;
-            padding: 6px 25px;
-            background: $red;
-            -webkit-transition: 0.3s;
-            transition: 0.3s;
-            color: white;
-            font-size: 16px;
-            text-transform: uppercase;
-            box-shadow: 0 0 7px 0px #3333338a;
+          a {
+            font-size: 17px;
+            color: #333;
+            text-decoration: none;
+            transition: .3s;
+            &.active,
             &:hover {
-              background: transparent;
+              color: $red !important;
+            }
+            &[type="button"] {
               color: $red;
+              border: 2px solid $red;
+              border-radius: 4px;
+              padding: 6px 25px;
+              background: $red;
+              -webkit-transition: 0.3s;
+              transition: 0.3s;
+              color: white;
+              font-size: 16px;
+              text-transform: uppercase;
+              box-shadow: 0 0 7px 0px #3333338a;
+              &:hover {
+                background: transparent;
+                color: $red;
+              }
             }
           }
         }
