@@ -29,7 +29,7 @@
     <!-- Start Navbar -->
     <nav class="pt-3">
       <div class="container">
-        <div>
+        <div class="logo">
           <a href="#"><img src="./src/img/logo-bookmark.svg" alt="Logo" /></a>
         </div>
 
@@ -37,18 +37,22 @@
         <div class="links">
           <ul class="navmenu">
             <li>
-              <a href="#" class="active">Features</a>
+              <a id="li1" href="#" class="active">Features</a>
             </li>
             <li>
-              <a href="#">Pricing</a>
+              <a id="li2" href="#">Pricing</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a id="li3" href="#">Contact</a>
             </li>
             <li>
-              <a class="loginbtn" type="button" href="#">Login</a>
+              <a id="li4" class="loginbtn" type="button" href="#">Login</a>
             </li>
           </ul>
+          <div class="icons">
+            <img src="./src/img/icon-facebook.svg" alt="Fb Icon">
+            <img src="./src/img/icon-twitter.svg" alt="Tw Icon">
+          </div>
           <div class="close-icon">
             <ion-icon name="close-sharp" class="closeico"></ion-icon>
           </div>
@@ -71,8 +75,14 @@
                   instantly. Try it for free.
                 </p>
                 <div class="btns">
-                  <a href="#">Get it on Chrome</a>
-                  <a href="#">Get it on Firefox</a>
+                  <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <a href="#">Get it on Chrome</a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12">
+                      <a id="last" href="#">Get it on Firefox</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -193,5 +203,6 @@
     </p>
   </footer> -->
     <script src="./src/js/bootstrap.min.js"></script>
+    <script src="./src/js/main.js"></script>
   </body>
 </html>
